@@ -5,5 +5,5 @@ if number > 1:
         if(number % i) == 0:
             print(f"{number} not a prime number")
             break
-else:
-     print(f"{number} is a prime number")
+else: 
+    print(f"{number} is a prime number")
