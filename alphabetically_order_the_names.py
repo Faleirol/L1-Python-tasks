@@ -1,8 +1,13 @@
-Chocolate_Bars = 18
-People = 5
-Whole_bars = Chocolate_Bars // People
-Extra_squares = Whole_bars % 7
-squares_leftover = Whole_bars * 7 % People
-print("Whole_bars:{}".format(Whole_bars))
-print("Extra_squares:{}".format(Extra_squares))
-print("Squares_leftover:{}".format(squares_leftover))
+name = ["Evi", "Madeleine", "Aaron", "Kelsey", "Noah", "Hayley", "Darian"]
+name.sort()
+print(name)
+
+Check_name = input("What name do you want to check?").strip().title()
+if Check_name == Check_name:
+    print("{} is already in the list".format(Check_name))
+else:
+    print("{} is not in the in the list".format(Check_name))
+repeat = True
+while repeat == True:
+  Add_name = input("What name do you want to add?").strip().lower()
+
